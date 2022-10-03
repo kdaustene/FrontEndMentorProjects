@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.section-main {
+    display: flex;
+    max-width: 1440px;
+    max-height: 600px;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 20px;
+}
+
+.img-desktop {
+    width: 50%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    overflow: hidden;
+}
+
+.img-desktop img {
+    max-height: 600px;
+}
+
+.section-right {
+    width: 50%;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    
+}
+
+.section-right * {
+    padding: 0 45px;
+}
+
+.section-right h3 {
+    font-family: 'montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 14px 0 0 0;
+}
+
+.section-right h1 {
+    font-family: 'fraunces';
+    font-size: 40px;
+    margin: 0%;
+}
+
+.section-right p {
+    font-family: 'montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.prices {
+    display: flex;
+    font-family: 'fraunces';
+    font-size: 45px;
+    color: hsl(159, 35%, 37%);
+    align-items: center;
+}
+
+.prices span {
+    padding: 0;
+}
+
+.strikethrough {
+    font-family: 'montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    text-decoration: line-through;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.btn {
+    margin: 0 45px 10px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(159, 35%, 37%);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-family: 'montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn div {
+    padding: 20px 0;
+}
+
+.btn svg {
+    padding: 0 15px;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
